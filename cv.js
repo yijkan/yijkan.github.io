@@ -12,7 +12,7 @@ $(document).ready(function() {
 	var update = [
 		"<h2>Yijin's Curriculum Vitae</h2>",
 
-		"<a href='Yijin-Kang-CV.pdf'>Download a PDF version here</a>",
+		"<div style='clear:both'><a href='Yijin-Kang-CV.pdf'>Download a PDF version here</a></div>",
 		
 		"<div class='left'>",
 			"<h3>Blah</h3>",

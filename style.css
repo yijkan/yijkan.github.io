@@ -14,19 +14,35 @@ a {
 h1 {
 	font-family: "Righteous", sans-serif;
 	font-size:100px;
-	padding-top:20px;
+	margin-top:20px;
+	margin-bottom: 20px;
 }
 
 h2 {
 	font-size:54px;
+	margin-top: 10px;
+	margin-bottom:10px;
 }
 
 h3 {
 	font-size:36px;
+	margin-top: 10px;
+	margin-bottom:10px;
 }
 
 h4 {
 	font-size:20px;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+ul {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+i {
+	margin:3px;
 }
 
 #menu_container {
