@@ -1,309 +1,40 @@
-<!DOCTYPE html>
+<DOCTYPE! html>
 <html>
 	<head>
-		<title>Tempo Perfect</title>
-		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans|Metrophobic|Allerta|Gafata|Open+Sans' rel='stylesheet' type='text/css'>
-    	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans|Metrophobic|Allerta|Gafata|Open+Sans' rel='stylesheet' type='text/css'>
-    	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	</head>
+		<title>Yijin Kang</title>
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
 
-
-	<style>
-		body {
-			background-color: #ecf0f1;
-		}
-		#logo {
-			width: 100%;
-			height: 100px;
-			
-			
+		<link rel="stylesheet" type="text/css" href="style.css">
 		
-		}
-		h1 {
-			text-align: center;
-			font-family: 'Metrophobic',sans-serif;
-			font-size: 40pt;
-			color: #2c3e50;
-		}
-		#app {
-			width: 100%;
-			height: 530px;
-			/*background-color: #ffffff;*/
-		}
-		h2 {
-			text-align: center;
-			font-family: 'Metrophobic',sans-serif;
-			font-size: 30pt;
-			color: #2c3e50;
-		}
-		a:link {
-    		text-decoration: none;
-    		color: #2c3e50;
-		}
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
-		a:visited {
-    		text-decoration: none;
-    		color: #2c3e50;
-		}
-
-		a:hover {
-    		text-decoration: none;
-		}
-
-		a:active {
-    		text-decoration: none;
-		}
-		h3 {
-			text-align: center;
-			font-family: 'Metrophobic',sans-serif;
-			font-size: 20pt;
-			color: #2c3e50;
-		}
-		.description {
-			text-align: center;
-			font-family: 'Metrophobic',sans-serif;
-			font-size: 14pt;
-			color: #2c3e50;
-		}
-		li {
-			text-align: center;
-			font-family: 'Metrophobic',sans-serif;
-			font-size: 12pt;
-			color: #2c3e50;
-			list-style-type: none;
-		}
-		#footer {
-			width: 100%;
-			height: 50px;
-			/*background-color: #000000;*/
-		}
-		.footerP {
-			text-align: center;
-			font-family: 'Metrophobic',sans-serif;
-			font-size: 12pt;
-			color: #2c3e50;
-		}
-		img {
-		    display:block;
-            margin:auto;
-}
-		}
-
-	</style>
-
-    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-	<script type="text/javascript">
-        $(document).ready(function() {
-            $('#play').click(function() {
-                console.log("game started");
-                $('#app').empty();
-                $('#app').append("<h2 id='instruct'>Listen to these 8 beats. Then tap any key to continue the same beat!</h2>");
-                $('#app').append("<div id='display'></div>");
-            
-            
-                for (var i = 0; i < 8; i++) {
-                    // Play beat & delay for msecPerBeat
-                    setTimeout(function() {
-                        playBeat();
-                    }, msecPerBeat);
-                }
-                setTimeout(function() {
-                    startCount();
-                    $('#app').append("<p class='description' id='instruct'>Last beat!</p>"); 
-                }, msecPerBeat*8);
-            });
-            console.log("clicked");
-        })
-        
-        var totalScore = 0;
-        var lastScore = 0;
-        var accuracy = 0;
-        var BPM = 100;
-        var msecPerBeat = 60000/BPM;
-        var nextBeat = 0;
-        var start = false;
-        var numBeats = 100;
-        var numOfBeats = new Array(50);
-        var sound = new Audio('Beat1.mp3');
-        
-        var playBeat = function() {
-            sound.play();
-            $('#display').append("<p class='description'>Now!</p>");
-            setTimeout(function() {
-                $('#display').empty();
-            }, msecPerBeat/2);
-            console.log("now");
-        }
-        
-        
-        //1 Beat per 600 milliseconds for 100 BPM
-        
-        //player presses button to start. start function starts. there should be set amount of beats until the end. 8 beats before score is counted. beats come every 600 ms
-        
-        // var beat = new Object();
-        // beat.beatTime = msecPerBeat;
-        
-
-            
-            
-            //
-        
-        var startCount = function() {
-            setTimeout(function() {
-                $('h2, #instruct').remove();
-                $('#app').append("<h2>Now continue the beat on your own!</h2>");
-                $('#app').append("<div class='description'>Your Score: <p id='score'>" + totalScore + "</p></div>");
-            }, msecPerBeat);
-                
-
-
-            time = new Date;
-            nextBeat = time.getTime() + msecPerBeat; // add msecPerBeat to current time to find out when the next beat should be
-            playBeat(); // play a beat
-            
-            // the following loop plays the rest of the beats 
-            for (var i = 1; i < numBeats; i++) {
-                setTimeout(function() {
-                    playBeat();
-                }, msecPerBeat);
-            }
-
-            var finish = function() {
-                $('#app').empty();
-                $('#app').append("<h2>DONE! Your score is " + totalScore + "</h2>");
-            }
-
-            setTimeout(finish, msecPerBeat * numBeats);
-        }
-        
-        function tap(e) {
-            timeSeconds = new Date;
-            msecs = timeSeconds.getTime(); // find the current time
-            
-            // calculate the difference between when the user tapped (msecs) and when the user should have tapped (nextBeat)
-            score = Math.abs(nextBeat - msecs);
-            
-            // increment score based on how close user was
-            additional = 0;
-            if (score < 50) {
-                additional = 1000;
-            } else if (score < 100) {
-                additional = 700;
-            } else if (score < 250) {
-                additional = 300;
-            } 
-
-            totalScore += additional;
-            $('#score').replaceWith("<p id='score'>" + totalScore + "</p>"); 
-            $('#app').append("<div class='description' id='additional'>+" + additional + "!</div>"); 
-            
-            var a = function() {
-                $('#additional').fadeOut('fast')
-                $('#additional').remove();
-            }
-            
-            setTimeout(a, msecPerBeat/2);
-
-            nextBeat += msecPerBeat;
-        }
-        
-        document.onkeypress = tap;
-        
-	</script>
-	
-<script>
-  var BPMMachine = (function() {
-    var interface = {};
-    var data = {};
-
-
-    var setData = function() {
-      data.RESET_TIME = 2; // seconds
-      data.count = 0;
-      data.msecsFirst = 0;
-      data.msecsPrevious = 0;
-      data.averageBPM = 0;
-    }
-
-    setData(); // The first time.
-
-    function TapForBPM(e) {
-      timeSeconds = new Date();
-      msecs = timeSeconds.getTime();
-
-      if ((msecs - data.msecsPrevious) > 1000 * data.RESET_TIME) {
-        data.count = 0;
-      }
-
-      if (data.count == 0) {
-        data.averageBPM = "First Beat";
-        data.msecsFirst = msecs;
-        data.count = 1;
-      } else {
-        bpmAvg = 60000 * data.count / (msecs - data.msecsFirst);
-        data.averageBPM = Math.round(bpmAvg * 100) / 100;
-        data.count++;
-      }
-      data.msecsPrevious = msecs;
-
-
-
-      console.log(data.averageBPM);
-
-      return true;
-    }
-
-
-    var startTrackingTaps = function() {
-        document.addEventListener('keydown', BPMMachine.TapForBPM, false);
-    };
-
-    var stopTrackingTaps = function() {
-        document.removeEventListener('keydown', BPMMachine.TapForBPM);
-    };
-
-    interface.clickBPM = function() { return data.averageBPM; }
-    interface.startTrackingTaps = startTrackingTaps;
-    interface.stopTrackingTaps = stopTrackingTaps;
-
-    return interface;
-  })();
-
-</script>
-
-
+		<script language="JavaScript" type="text/javascript" src="home.js"></script>
+		<script language="JavaScript" type="text/javascript" src="prog.js"></script>
+		<script language="JavaScript" type="text/javascript" src="mus.js"></script>
+		<script language="JavaScript" type="text/javascript" src="econ.js"></script>
+		<script language="JavaScript" type="text/javascript" src="cv.js"></script>
+		
+	<head/>
 	<body>
-
-		<div id="logo">
-			<img src="http://i.imgur.com/6csNl4X.png">
+		<h1>Yijin Kang</h1>
+	
+		<div id="menu_container">
+			<div class="menu_item" id="home">Home</div>
+			<div class="menu_item" id="prog">Programmer</div>
+			<div class="menu_item" id="mus">Musician</div>
+			<div class="menu_item" id="econ">Economist</div>
+			<div class="menu_item" id="cv">CV</div>
 		</div>
-
-		<div id="app">
-			<h2><a id='play' href="#">Play</a></h2>
-			<h3>Description</h3>
-			<p class="description">Exactly as you can see form the title, Tempo Perfect is a game that<br></br>
-			requires user to tap a key on their keyboard and follow the tempo of the displayed song. <br></br>
-			It is a fun and interactive game that has a score system. The closer the user is to the current beat, the more points <br></br>
-		 the user will earn. Get ready to tap away !
-		 
-			</p>
-			<ol>
-			<h3> Instructions</h3>
-				<li>1. Press play :)</li>
-				<li>2. Listen to the beat.</li>
-				<li>3. Tap any key when the beat comes.</li>
-			</ol>
+		
+		<div id="mess_bar">
+			Welcome to Yijin Kang's website! Hover over or click on one of the items above.
 		</div>
-
-		<div id="footer">
-			<p class="footerP">
-				<i class="fa fa-users"></i> Tempo Perfect created at Spotify's Monthly Music Hackathon by Brandon Yu, Yijin Kang, Frederica Chen, Hugo Melo, and Anton Sterlin.
-			</p>
+		
+		<div id="content">
 
 		</div>
-
-
-
+		
+		<div id="cr">Copyright by Yijin Kang 2014</div>
 	</body>
 </html>
