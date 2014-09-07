@@ -14,13 +14,13 @@ $(document).ready(function() {
 			
 		"<div class='left'>",
 			"<h3>Classes I've taken</h3>",
-			"<ul>",
-				"<li>IB Economics HL</li>",
-				"<li>Marketing</li>",
-				"<li>Management</li>",
-				"<li>Management Information Systems</li>",
-				"<li>Accounting & Finance</li>",
-				"<li>Business Administration</li>",
+			"<ul class='fa-ul'>",
+				"<li><i class='fa fa-check'></i>IB Economics HL</li>",
+				"<li><i class='fa fa-check'></i>Marketing</li>",
+				"<li><i class='fa fa-check'></i>Management</li>",
+				"<li><i class='fa fa-check'></i>Management Information Systems</li>",
+				"<li><i class='fa fa-check'></i>Accounting & Finance</li>",
+				"<li><i class='fa fa-check'></i>Business Administration</li>",
 			"</ul>",
 		"</div>",
 		
@@ -29,9 +29,9 @@ $(document).ready(function() {
 			"<h4>Fed Challenge</h4>",
 
 			"<h4>DECA</h4>",
-			"<ul>",
-				"<li>2014 States Second Place; National Qualifier</li>",
-				"<li>2013 States First Place</li>",
+			"<ul class='fa-ul'>",
+				"<li><i class='fa fa-check'></i>2014 States Second Place; National Qualifier</li>",
+				"<li><i class='fa fa-check'></i>2013 States First Place</li>",
 			"</ul>",
 		"<div>",
 	]

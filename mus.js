@@ -14,11 +14,11 @@ $(document).ready(function() {
 			
 		'<div class="left">',
 			'<h3>Instruments</h3>',
-			'<ul>',
-				'<li>Violin</li>',
-				'<li>Piano</li>',
-				'<li>Viola</li>',
-				'<li>Guitar</li>',
+			'<ul class="fa-ul">',
+				'<li><i class="fa fa-check"></i> Violin</li>',
+				'<li><i class="fa fa-check"></i> Piano</li>',
+				'<li><i class="fa fa-check"></i> Viola</li>',
+				'<li><i class="fa fa-check"></i> Guitar</li>',
 			'</ul>',
 		'</div>',
 		

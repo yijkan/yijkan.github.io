@@ -16,7 +16,8 @@ $(document).ready(function() {
 		
 		"<div class='left'>",
 			"<h3>Blah</h3>",
-			"<ul>",
+			"<ul class='fa-ul'>",
+				'<li><i class="fa fa-check"></i> </li>',
 			"</ul>",
 		"</div>",
 		
