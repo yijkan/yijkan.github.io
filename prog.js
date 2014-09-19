@@ -27,6 +27,8 @@ $(document).ready(function() {
 					'<li><i class="fa fa-check"></i> Gimp</li>',
 					'<li><i class="fa fa-check"></i> SAP</li>',
 				'</ul>',
+				'<h3>Work Experience</h3>',
+				'<a href="sit-senexp.blogspot.com">Read about my Senior Experience internship at Stevens Institute of Technology here</a>',
 				'<h3>Hackathon Experience</h3>',
 				'<ul class="fa-ul">',
 					'<li><i class="fa fa-check"></i> Monthly Music Hackathon at Spotify September 2014</li>',
