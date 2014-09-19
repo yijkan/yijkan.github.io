@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#prog').mouseenter(function() {
 		$('#mess_bar').empty();
-		$('#mess_bar').append("Updates: Tempo Perfect (Monthly Music Hackathon Sep 2014)");
+		$('#mess_bar').append("Updates: Link to Senior Experience internship blog");
 	});
 
 	$('#prog').mouseleave(function() {
@@ -28,16 +28,16 @@ $(document).ready(function() {
 					'<li><i class="fa fa-check"></i> SAP</li>',
 				'</ul>',
 				'<h3>Work Experience</h3>',
-				'<a href="sit-senexp.blogspot.com">Read about my Senior Experience internship at Stevens Institute of Technology here</a>',
+				'<a href="sit-senexp.blogspot.com">Senior Experience internship at Stevens Institute of Technology</a>',
+			'</div>',
+			
+			'<div class="right">',
 				'<h3>Hackathon Experience</h3>',
 				'<ul class="fa-ul">',
 					'<li><i class="fa fa-check"></i> Monthly Music Hackathon at Spotify September 2014</li>',
 					'<li><i class="fa fa-check"></i> Code Day NY Spring 2014</li>',
 					'<li><i class="fa fa-check"></i> hackBCA 2014</li>',
 				'</ul>',
-			'</div>',
-			
-			'<div class="right">',
 				'<h3>Completed Projects</h3>',
 				'<a href="TempoPerfect.html"><h4>Tempo Perfect</h4></a>',
 				'<p>Test your skills at maintaining a steady tempo!</p>',
