@@ -28,7 +28,7 @@ $(document).ready(function() {
 					'<li><i class="fa fa-check"></i> SAP</li>',
 				'</ul>',
 				'<h3>Work Experience</h3>',
-				'<a href="sit-senexp.blogspot.com">Senior Experience internship at Stevens Institute of Technology</a>',
+				'<a href="http://sit-senexp.blogspot.com" target="_blank">Senior Experience internship at Stevens Institute of Technology</a>',
 			'</div>',
 			
 			'<div class="right">',
@@ -39,7 +39,7 @@ $(document).ready(function() {
 					'<li><i class="fa fa-check"></i> hackBCA 2014</li>',
 				'</ul>',
 				'<h3>Completed Projects</h3>',
-				'<a href="TempoPerfect.html"><h4>Tempo Perfect</h4></a>',
+				'<a href="TempoPerfect.html" target="_blank"><h4>Tempo Perfect</h4></a>',
 				'<p>Test your skills at maintaining a steady tempo!</p>',
 			
 				'<h3>In Progress</h3>',
