@@ -41,6 +41,7 @@ $(document).ready(function() {
 				'</ul>',
 				'<h3>Completed Projects</h3>',
 				'<a href="http://yucode.org/app/healinghumanity" target="_blank"><h4>Healing Humanity</h4></a>',
+				'<p>A body\'s individual parts must all be kept alive in order for the body to survive, much like the Earth itself</p>',
 				'<a href="TempoPerfect.html" target="_blank"><h4>Tempo Perfect</h4></a>',
 				'<p>Test your skills at maintaining a steady tempo!</p>',
 			
