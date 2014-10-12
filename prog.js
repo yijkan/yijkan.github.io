@@ -40,9 +40,9 @@ $(document).ready(function() {
 					'<li><i class="fa fa-check"></i> hackBCA 2014</li>',
 				'</ul>',
 				'<h3>Completed Projects</h3>',
-				'<a href="http://yucode.org/app/healinghumanity" target="_blank"><h4>Healing Humanity</h4></a>',
+				'<h4><a href="http://yucode.org/app/healinghumanity" target="_blank">Healing Humanity</a></h4>',
 				'<p>A body\'s individual parts must all be kept alive in order for the body to survive, much like the Earth itself</p>',
-				'<a href="TempoPerfect.html" target="_blank"><h4>Tempo Perfect</h4></a>',
+				'<h4><a href="TempoPerfect.html" target="_blank">Tempo Perfect</a></h4>',
 				'<p>Test your skills at maintaining a steady tempo!</p>',
 			
 				'<h3>In Progress</h3>',
