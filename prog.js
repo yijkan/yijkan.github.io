@@ -40,7 +40,7 @@ $(document).ready(function() {
 					'<li><i class="fa fa-check"></i> hackBCA 2014</li>',
 				'</ul>',
 				'<h3>Completed Projects</h3>',
-				'<a href="http://yucode.org/app/HealingHumanity.html" target="_blank"><h4>Healing Humanity</h4></a>',
+				'<a href="http://yucode.org/app/healinghumanity" target="_blank"><h4>Healing Humanity</h4></a>',
 				'<a href="TempoPerfect.html" target="_blank"><h4>Tempo Perfect</h4></a>',
 				'<p>Test your skills at maintaining a steady tempo!</p>',
 			
