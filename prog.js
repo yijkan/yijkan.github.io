@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#prog').mouseenter(function() {
 		$('#mess_bar').empty();
-		$('#mess_bar').append("Updates: Link to Senior Experience internship blog");
+		$('#mess_bar').append("Updates: HackRU Fall 2014 Project: Healing Humanity");
 	});
 
 	$('#prog').mouseleave(function() {
@@ -34,11 +34,13 @@ $(document).ready(function() {
 			'<div class="right">',
 				'<h3>Hackathon Experience</h3>',
 				'<ul class="fa-ul">',
+					'<li><i class="fa fa-check"></i> HackRU Fall 2014</li>',
 					'<li><i class="fa fa-check"></i> Monthly Music Hackathon at Spotify September 2014</li>',
 					'<li><i class="fa fa-check"></i> Code Day NY Spring 2014</li>',
 					'<li><i class="fa fa-check"></i> hackBCA 2014</li>',
 				'</ul>',
 				'<h3>Completed Projects</h3>',
+				'<a href="http://yucode.org/app/HealingHumanity.html" target="_blank"><h4>Healing Humanity</h4></a>',
 				'<a href="TempoPerfect.html" target="_blank"><h4>Tempo Perfect</h4></a>',
 				'<p>Test your skills at maintaining a steady tempo!</p>',
 			
