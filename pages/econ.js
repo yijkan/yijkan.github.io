@@ -1,12 +1,17 @@
 $(document).ready(function() {
 	$('#econ').mouseenter(function() {
 		$('#mess_bar').empty();
-		$('#mess_bar').append("Coming soon!");
+		$('#mess_bar').append("Updates: Fed Challenge 2015");
 	});
 
 	$('#econ').mouseleave(function() {
 		$('#mess_bar').empty();
 		$('#mess_bar').append("Welcome to Yijin Kang's website! Hover over or click on one of the items above.");
+	});
+
+	$('#econ').click(function() {
+		$('.menu_item').css('background-color','#ECCAFC');
+		$(this).css('background-color','#D270FF');
 	});
 
 	var update = [
@@ -27,6 +32,10 @@ $(document).ready(function() {
 		"<div class='right'>",
 			"<h3>Extracurriculars</h3>",
 			"<h4>Fed Challenge</h4>",
+			"<ul class='fa-ul'>",
+				"<li><i class='fa fa-check'></i> 2015 Team member</li>",
+				"<li><i class='fa fa-check'></i> 2014 Supporting researcher for 3rd place team</li>",
+			"</ul>",
 
 			"<h4>DECA</h4>",
 			"<ul class='fa-ul'>",
