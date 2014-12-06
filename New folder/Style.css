@@ -1,0 +1,50 @@
+body{
+	font-family:arial;
+}
+
+p{
+	font-family: arial
+}
+
+.red{
+	background-color: red;
+	color: red;
+}
+.red:hover{
+	color: black;
+}
+.orange{
+	background-color: orange;
+	color: orange;
+}
+.orange:hover{
+	color:black;
+}
+.yellow{
+	background-color: yellow;
+	color: yellow;
+}
+.yellow:hover{
+	color:black;
+}
+.green{
+	background-color: green;
+	color:green;
+}
+.green:hover{
+	color:black;
+}
+.blue{
+	background-color: blue;
+	color: blue;
+}
+.blue:hover{
+	color:white;
+}
+.purple{
+	background-color: purple;
+	color:purple;
+}
+.purple:hover{
+	color:white;
+}
