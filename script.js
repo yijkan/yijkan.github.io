@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    // Message Bar updates
 	$('#home').mouseenter(function() {
 		updateMB("Back to the landing page");
 	});
@@ -25,11 +25,13 @@ $(document).ready(function() {
 		$('#mess_bar').append("Welcome to Yijin Kang's website! Hover over or click on one of the items above.");
 	});
 
+    // menu item updates
 	$('.menu_item').click(function() {
 		$('.menu_item').css('background-color','#ECCAFC');
 		$(this).css('background-color','#D270FF');
 	});
 
+    // content updates
 	$('#home').click(function() {
 		$('#content').load('pages/home.txt');
 	});
@@ -47,7 +49,7 @@ $(document).ready(function() {
 	});
 
 	$('#cv').click(function() {
-		$('#content').load('pages/prog.txt');
+		$('#content').load('pages/cv.txt');
 	});
 });
 
