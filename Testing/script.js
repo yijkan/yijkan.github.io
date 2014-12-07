@@ -1,4 +1,9 @@
 $(document).ready(function() {
+	$('.menu_item').click(function() {
+		$('.menu_item').css('background-color','#ECCAFC');
+		$(this).css('background-color','#D270FF');
+	});
+
 	$('#home').click(function() {
 		$('#content').load('home.txt');
 	});
