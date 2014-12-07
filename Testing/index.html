@@ -10,7 +10,7 @@
 
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<!-- <script src="script.js"/> -->
 
 		<!-- <script language="JavaScript" type="text/javascript" src="pages/home.js"></script>
@@ -22,6 +22,7 @@
 		<script>
 			$(document).ready(function() {
 				$("#prog").click(function() {
+					console.log("prog");
 					$("#content").load("prog.txt");
 				})
 			})
