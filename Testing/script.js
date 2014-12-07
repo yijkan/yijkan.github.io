@@ -31,23 +31,23 @@ $(document).ready(function() {
 	});
 
 	$('#home').click(function() {
-		$('#content').load('home.txt');
+		$('#content').load('pages/home.txt');
 	});
 
 	$('#prog').click(function() {
-		$('#content').load('prog.txt');
+		$('#content').load('pages/prog.txt');
 	});
 
 	$('#mus').click(function() {
-		$('#content').load('mus.txt');
+		$('#content').load('pages/mus.txt');
 	});
 
 	$('#econ').click(function() {
-		$('#content').load('econ.txt');
+		$('#content').load('pages/econ.txt');
 	});
 
 	$('#cv').click(function() {
-		$('#content').load('prog.txt');
+		$('#content').load('pages/prog.txt');
 	});
 });
 
