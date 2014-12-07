@@ -5,6 +5,12 @@ $(document).ready(function() {
 		$('#mess_bar').append("Welcome to Yijin Kang's website! Hover over or click on one of the items above.");
 	});
 
+	// Home
+	$('#home').mouseenter(function() {
+		$('#mess_bar').empty();
+		$('#mess_bar').append("Back to the landing page");
+	});
+
 	// Programmer
 	$('#prog').mouseenter(function() {
 		$('#mess_bar').empty();
@@ -18,10 +24,15 @@ $(document).ready(function() {
 	});
 
 	// Economist
-
 	$('#econ').mouseenter(function() {
 		$('#mess_bar').empty();
 		$('#mess_bar').append("Updates: Fed Challenge 2015");
+	});
+
+	// CV
+	$('#cv').mouseenter(function() {
+		$('#mess_bar').empty();
+		$('#mess_bar').append("Updates: PDF now available!");
 	});
 
 	// Change menu item colors
@@ -29,6 +40,11 @@ $(document).ready(function() {
 		$('.menu_item').css('background-color','#ECCAFC');
 		$(this).css('background-color','#D270FF');
 	});
+
+	// load home page
+	$('#home').click(function() {
+		$("#contect").load("home.txt");
+	})
 
 	// load prog page
 	$("#prog").click(function() {
@@ -46,7 +62,7 @@ $(document).ready(function() {
 	})
 
 	// load cv page	
-	// $("#cv").click(function() {
-	// 	$("#content").load("cv.txt");
-	// })
+	$("#cv").click(function() {
+		$("#content").load("cv.txt");
+	})
 });
