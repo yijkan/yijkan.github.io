@@ -11,6 +11,11 @@ a {
 	color:#731C9C;
 }
 
+p {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
 h1 {
 	font-family: "Bree Serif", sans-serif;
 	font-size:100px;
@@ -62,13 +67,16 @@ i {
 	cursor:pointer;
 }
 
+#home {
+	background-color:#D270FF;
+}
+
 #mess_bar {
 	background-color:#D270FF;
 	padding: 55px 0px 10px 0px;
 }
 
 #content {
-	margin-left:100px;
 	margin-right:100px;
 }
 
@@ -76,24 +84,20 @@ i {
 	clear:both;
 	color:#888888;
 	font-size:12px;
-	margin-top:30px;
+	padding-top:20px;
 	margin-bottom:10px;
 }
 
 #note {
 	color:#888888;
+	font-size:16px;
 }
 
 .left {
+	padding-left:100px;
 	text-align:justify;
 	float:left;
 	width:100%;
-}
-
-.right {
-	text-align:justify;
-	float:left;
-	width:50%;
 }
 
 .side {

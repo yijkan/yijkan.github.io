@@ -15,34 +15,27 @@ $(document).ready(function() {
 	});
 
 	var update = [
-		"<h2>Yijin as an economist</h2>",
-			
 		"<div class='left'>",
-			"<h3>Classes I've taken</h3>",
-			"<ul class='fa-ul'>",
-				"<li><i class='fa fa-check'></i> IB Economics HL</li>",
-				"<li><i class='fa fa-check'></i> Marketing</li>",
-				"<li><i class='fa fa-check'></i> Management</li>",
-				"<li><i class='fa fa-check'></i> Management Information Systems</li>",
-				"<li><i class='fa fa-check'></i> Accounting & Finance</li>",
-				"<li><i class='fa fa-check'></i> Business Administration</li>",
-			"</ul>",
-		"</div>",
-		
-		"<div class='right'>",
-			"<h3>Extracurriculars</h3>",
+			"<div class='side'>",
+				"<h3>Classes I've taken</h3>",
+				"<i class='fa fa-check'></i> IB Economics HL<br>",
+				"<i class='fa fa-check'></i> Marketing<br>",
+				"<i class='fa fa-check'></i> Management<br>",
+				"<i class='fa fa-check'></i> Management Information Systems<br>",
+				"<i class='fa fa-check'></i> Accounting & Finance<br>",
+				"<i class='fa fa-check'></i> Business Administration<br>",
+			"</div>",
+
+			"<h3>Competitions</h3>",
 			"<h4>Fed Challenge</h4>",
-			"<ul class='fa-ul'>",
-				"<li><i class='fa fa-check'></i> 2015 Team member</li>",
-				"<li><i class='fa fa-check'></i> 2014 Supporting researcher for 3rd place team</li>",
-			"</ul>",
+			"<i class='fa fa-check'></i> 2015 Team member<br>",
+			"<i class='fa fa-check'></i> 2014 Supporting researcher for 3rd place team<br>",
 
 			"<h4>DECA</h4>",
-			"<ul class='fa-ul'>",
-				"<li><i class='fa fa-check'></i> 2014 States Second Place; National Qualifier</li>",
-				"<li><i class='fa fa-check'></i> 2013 States First Place</li>",
-			"</ul>",
-		"<div>",
+			"<i class='fa fa-check'></i> 2014 States Second Place; National Qualifier<br>",
+			"<i class='fa fa-check'></i> 2013 States First Place<br>",
+		"</div>",
+		
 	]
 	
 	$('#econ').click(function() {

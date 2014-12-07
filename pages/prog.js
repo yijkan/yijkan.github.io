@@ -15,30 +15,28 @@ $(document).ready(function() {
 	});
 
 	var update = [
-		'<h2>Yijin as a programmer</h2>',
-
 		'<div class="left">',
 
 			'<div class="side">',
-				'<h3>Work Experience</h3>',
-				'<p><a href="http://sit-senexp.blogspot.com" target="_blank">Senior Experience internship at Stevens Institute of Technology</a></p>',
-
 				'<h3>Skills</h3>',
-				'<ul class="fa-ul">',
-					'<li><i class="fa fa-check"></i> Java</li>',
-					'<li><i class="fa fa-check"></i> Javascript</li>',
-					'<li><i class="fa fa-check"></i> Database design with MySQL</li>',
-					'<li><i class="fa fa-check"></i> JDBC</li>',
-					'<li><i class="fa fa-check"></i> HTML/CSS</li>',
-					'<li><i class="fa fa-check"></i> C++</li>',
-				'</ul>',
+				'<i class="fa fa-check"></i> Java<br>',
+				'<i class="fa fa-check"></i> Javascript<br>',
+				'<i class="fa fa-check"></i> Database design with MySQL<br>',
+				'<i class="fa fa-check"></i> JDBC<br>',
+				'<i class="fa fa-check"></i> HTML/CSS<br>',
+				'<i class="fa fa-check"></i> C++<br>',
+
 				'<h4>Software</h4>',
-				'<ul class="fa-ul">',
-					'<li><i class="fa fa-check"></i> Adobe Photoshop, Dreamweaver</li>',
-					'<li><i class="fa fa-check"></i> Gimp</li>',
-						'<li><i class="fa fa-check"></i> SAP</li>',
-				'</ul>',
+				'<i class="fa fa-check"></i> Adobe Photoshop, Dreamweaver<br>',
+				'<i class="fa fa-check"></i> Gimp<br>',
+				'<i class="fa fa-check"></i> SAP<br>',
 			'</div>',
+
+			'<h3>Work Experience</h3>',
+			'<h4>Database designer intern</h4>',
+			'<p>Stevens Institute of Technology. Reflections <a href="http://sit-senexp.blogspot.com" target="_blank">here</a>',
+			'<h4>Course materials writer intern</h4>',
+			'<p>Ad Astra Education</p>',
 
 			'<h3>Completed Projects</h3>',
 			'<h4><a href="http://yucode.org/app/healinghumanity" target="_blank">Healing Humanity</a></h4>',
@@ -54,7 +52,7 @@ $(document).ready(function() {
 			'<p id="note">Improvements being made. Made at HackRU Spring 2014</p>',
 
 			'<h4><a href="https://www.dropbox.com/s/b71byvk2dicd5ts/FighterJetTakesTheSky.zip" target="_blank">Fighter Jet Takes the Sky</a></h4>',
-			'<p>A different take on the classic helicoptor game, similar to the newer Flappy Bird</p>',
+			'<p>The classic helicoptor game turned into a plane game. Control the plane to avoid the missiles but keep it on the screen!</p>',
 			'<p id="note">Made at hackBCA 2014</p>',
 
 			'<h3>In Progress</h3>',

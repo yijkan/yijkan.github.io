@@ -15,8 +15,6 @@ $(document).ready(function() {
 	});
 
 	var update = [
-		"<h2>Yijin's Curriculum Vitae</h2>",
-		
 		"<div class='left'>",
 
 			"<div class='side'>",
@@ -24,9 +22,7 @@ $(document).ready(function() {
 			"</div>",
 
 			"<h3>Blah</h3>",
-			"<ul class='fa-ul'>",
-				'<li><i class="fa fa-check"></i> </li>',
-			"</ul>",
+			'<i class="fa fa-check"></i> <br>',
 		"</div>",
 		
 		
