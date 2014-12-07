@@ -12,7 +12,9 @@ $(document).ready(function() {
 		updateMB("Updates: SoundCloud link");
 	});
 
-	$('#econ').mouseenter(updateMB("Updates: Fed Challenge 2015"));
+	$('#econ').mouseenter(function() {
+		updateMB("Updates: Fed Challenge 2015")
+	});
 
 	$('#cv').mouseenter(function() {
 		updateMB("Updates: PDF now available!");
