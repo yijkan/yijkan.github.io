@@ -58,8 +58,7 @@ i {
 	position:fixed;
 	top:0;
 	z-index:100;
-	background-color:red;
-	height:75%;
+	width:100%;
 }
 
 .menu_item {
