@@ -66,8 +66,8 @@ function sticky_relocate() {
     var window_top = $(window).scrollTop();
     var div_top = $('.menu_a').offset().top;
     if (window_top > div_top) {
-        $('.menu_container').addClass('top');
+        $('.menu_container').addClass('stick');
     } else {
-        $('.menu_container').removeClass('top');
+        $('.menu_container').removeClass('stick');
 	}
 }
