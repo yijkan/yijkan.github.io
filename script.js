@@ -59,14 +59,21 @@ function updateMB (m) {
 	$('#mess_bar').append(m);
 }
 
-$(function() {
-	$(window).scroll(function() {
-		var window_top = $(window).scrollTop();
-	    var div_top = $('.menu_container').offset().top;
-	    if (window_top > div_top) {
-	        $('.menu_container').addClass('top');
-	    } else {
-	        $('.menu_container').removeClass('top');
-    }
-	})
-})
+function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('.menu_container').offset().top;
+    if (window_top > div_top) {
+        $('.menu_container').addClass('top');
+    } else {
+        $('.menu_container').removeClass('top');
+}
+
+$(function () {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});
+
+$(function () {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});
