@@ -69,4 +69,5 @@ function sticky_relocate() {
         $('.menu_container').addClass('top');
     } else {
         $('.menu_container').removeClass('top');
+	}
 }
