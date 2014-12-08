@@ -51,24 +51,31 @@ i {
 }
 
 #menu_container {
+
+}
+
+#menu_container.top {
+	position:fixed;
+	top:0;
+	z-index:100;
 }
 
 .menu_item {
 	font-size:20;
 	float:left;
-	background-color:#ECCAFC;
+	background-color:#ECCAFC; /* light */
 	padding:10px 0px 10px 0px;
 	width:20%;
 }
 
 .menu_item:hover {
 	font-weight: bold;
-	/*background-color:#E3A6FF;*/
+	background-color:#E3A6FF; /* med */
 	cursor:pointer;
 }
 
-#home {
-	background-color:#D270FF;
+.menu_item.clicked {
+	background-color:#D270FF; /* dark */
 }
 
 #mess_bar {

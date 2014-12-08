@@ -27,8 +27,8 @@ $(document).ready(function() {
 
     // menu item updates
 	$('.menu_item').click(function() {
-		$('.menu_item').css('background-color','#ECCAFC');
-		$(this).css('background-color','#D270FF');
+		$('.menu_item').removeClass('clicked');
+		$(this).addClass('clicked');
 	});
 
     // content updates
@@ -58,3 +58,15 @@ function updateMB (m) {
 	$('#mess_bar').empty();
 	$('#mess_bar').append(m);
 }
+
+$(function() {
+	$(window).scroll(function() {
+		var window_top = $(window).scrollTop();
+	    var div_top = $('.menu_container').offset().top;
+	    if (window_top > div_top) {
+	        $('.menu_container').addClass('top');
+	    } else {
+	        $('.menu_container').removeClass('top');
+    }
+	})
+})
