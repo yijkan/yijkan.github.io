@@ -51,6 +51,9 @@ $(document).ready(function() {
 	$('#cv').click(function() {
 		$('#content').load('pages/cv.txt');
 	});
+
+	$(window).scroll(sticky_relocate);
+    sticky_relocate();
 });
 
 
@@ -67,13 +70,3 @@ function sticky_relocate() {
     } else {
         $('.menu_container').removeClass('top');
 }
-
-$(function () {
-    $(window).scroll(sticky_relocate);
-    sticky_relocate();
-});
-
-$(function () {
-    $(window).scroll(sticky_relocate);
-    sticky_relocate();
-});
