@@ -61,7 +61,7 @@ function updateMB (m) {
 
 function sticky_relocate() {
     var window_top = $(window).scrollTop();
-    var div_top = $('.menu_container').offset().top;
+    var div_top = $('.menu_a').offset().top;
     if (window_top > div_top) {
         $('.menu_container').addClass('top');
     } else {
