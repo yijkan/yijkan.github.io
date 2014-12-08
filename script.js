@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	console.log(document.getElementById('menu_container').offsetHeight);
 	// Message Bar updates
 	$('#home').mouseenter(function() {
 		updateMB("Back to the landing page");
@@ -54,7 +53,6 @@ $(document).ready(function() {
 	});
 
 	$(window).scroll(function() {
-		console.log("scrolling");
 		sticky_relocate();
 	});
     sticky_relocate();
@@ -71,9 +69,9 @@ function sticky_relocate() {
     if (window_top > div_top) {
     	$('#menu_placeholder').show();
     	$('#menu_placeholder').css('height',document.getElementById('menu_container').offsetHeight);
-        // $('#menu_container').addClass('stick');
+        $('#menu_container').addClass('stick');
     } else {
     	$('#menu_placeholder').hide();
-    	// $('#menu_container').removeClass('stick');
+    	$('#menu_container').removeClass('stick');
 	}
 }
