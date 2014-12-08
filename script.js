@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	console.log(document.getElementById('menu_container').offsetHeight);
 	// Message Bar updates
 	$('#home').mouseenter(function() {
 		updateMB("Back to the landing page");
@@ -69,6 +70,7 @@ function sticky_relocate() {
     var div_top = $('#menu_a').offset().top;
     if (window_top > div_top) {
     	$('#menu_placeholder').show();
+    	$('#menu_placeholder').css('height',document.getElementById('menu_container').offsetHeight);
         // $('#menu_container').addClass('stick');
     } else {
     	$('#menu_placeholder').hide();
