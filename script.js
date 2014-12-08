@@ -65,16 +65,13 @@ function updateMB (m) {
 }
 
 function sticky_relocate() {
-	console.log("entered function");
     var window_top = $(window).scrollTop();
     var div_top = $('#menu_a').offset().top;
     if (window_top > div_top) {
     	$('#menu_placeholder').show();
-        $('#menu_container').addClass('stick');
-        console.log("reached top");
+        // $('#menu_container').addClass('stick');
     } else {
     	$('#menu_placeholder').hide();
-    	$('#menu_container').removeClass('stick');
-        console.log("exited top");
+    	// $('#menu_container').removeClass('stick');
 	}
 }
