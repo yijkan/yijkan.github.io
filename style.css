@@ -62,6 +62,7 @@ i {
 }
 
 #menu_placeholder {
+	height:0px;
 }
 
 .menu_item {

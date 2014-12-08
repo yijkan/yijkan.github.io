@@ -67,11 +67,12 @@ function sticky_relocate() {
     var window_top = $(window).scrollTop();
     var div_top = $('#menu_a').offset().top;
     if (window_top > div_top) {
-    	$('#menu_placeholder').show();
+    	// $('#menu_placeholder').show();
     	$('#menu_placeholder').css('height',document.getElementById('menu_container').offsetHeight);
         $('#menu_container').addClass('stick');
     } else {
-    	$('#menu_placeholder').hide();
+    	// $('#menu_placeholder').hide();
+    	$('#menu_placeholder').css('height',0);
     	$('#menu_container').removeClass('stick');
 	}
 }
