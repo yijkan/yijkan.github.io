@@ -62,11 +62,14 @@ function updateMB (m) {
 }
 
 function sticky_relocate() {
+	console.log("entered function");
     var window_top = $(window).scrollTop();
     var div_top = $('#menu_a').offset().top;
     if (window_top > div_top) {
+    	console.log("reached top");
         $('.menu_container').addClass('stick');
     } else {
+    	console.log("exited top");
         $('.menu_container').removeClass('stick');
 	}
 }
