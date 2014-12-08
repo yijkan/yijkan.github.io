@@ -52,7 +52,10 @@ $(document).ready(function() {
 		$('#content').load('pages/cv.txt');
 	});
 
-	$(window).scroll(sticky_relocate);
+	$(window).scroll(function() {
+		console.log("scrolling");
+		sticky_relocate();
+	});
     sticky_relocate();
 });
 
