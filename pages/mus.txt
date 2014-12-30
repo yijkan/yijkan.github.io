@@ -22,7 +22,4 @@
 	<i class="fa fa-check"></i> AP Music Theory<br>
 	<i class="fa fa-check"></i> Musicians' Workshop (buliding a ukelele)<br>
 	<i class="fa fa-check"></i> Music & Society<br>
-
-	<h3>K-Pop Covers</h3>
-	Listen to my covers on <a href="https://soundcloud.com/ykviolin" target="_blank">SoundCloud</a>
 </div>

@@ -9,7 +9,7 @@ $(document).ready(function() {
 	});
 
 	$('#mus').mouseenter(function() {
-		updateMB("Updates: SoundCloud link");
+		updateMB("Updates: Instruments, Ensembles, and Classes");
 	});
 
 	$('#econ').mouseenter(function() {
