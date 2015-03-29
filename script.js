@@ -5,7 +5,7 @@ $(document).ready(function() {
 	});
 
 	$('#prog').mouseenter(function() {
-		updateMB("Updates: HackRU Fall 2014 Project: Healing Humanity");
+		updateMB("Updates: hackBCA II (2015) Project: I Don't Know What To Do");
 	});
 
 	$('#mus').mouseenter(function() {
