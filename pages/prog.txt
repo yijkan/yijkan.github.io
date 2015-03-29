@@ -21,6 +21,10 @@
 	<p>Ad Astra Education</p>
 
 	<h3>Completed Projects</h3>
+	<h4><a href="http://104.131.105.244:8080/WhatToDo/" target="_blank">I Don't Know What To Do</a></h4>
+	<p>The permanent cure for boredom</p>
+	<p id="note">Made at hackBCA II (2015)</p>
+
 	<h4><a href="http://yucode.org/app/healinghumanity" target="_blank">Healing Humanity</a></h4>
 	<p>A body's individual parts must all be kept alive in order for the body to survive, much like the Earth itself</p>
 	<p id="note">Made at HackRU Fall 2014</p>
