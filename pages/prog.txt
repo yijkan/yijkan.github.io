@@ -21,7 +21,7 @@
 	<p>Ad Astra Education</p>
 
 	<h3>Completed Projects</h3>
-	<h4><a href="http://104.131.105.244:8080/WhatToDo/" target="_blank">I Don't Know What To Do</a></h4>
+	<h4><a href="http://idontknowwhattodo.me:8080/WhatToDo/" target="_blank">I Don't Know What To Do</a></h4>
 	<p>The permanent cure for boredom</p>
 	<p id="note">Made at hackBCA II (2015)</p>
 
