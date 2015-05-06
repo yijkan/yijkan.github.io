@@ -46,7 +46,7 @@
 
 	<h3>In Progress</h3>
 	
-	<h4><a href="https://github.com/yijkan/HackRU-Spring-2015/blob/master/Chess.jar" target="_blank">Chess</a><h4>
+	<h4><a href="https://github.com/yijkan/HackRU-Spring-2015/blob/master/Chess.jar" target="_blank">Chess</a></h4>
 	<p>Chess, recreated in Java with Processing API. (Intending on adding new twists such as pieces changing color or rank)</p>
 	<p id="note">Made at HackRU Spring 2015</p>
 
