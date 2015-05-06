@@ -2,26 +2,29 @@
 	<div class="side">
 		<h3>Skills</h3>
 		<i class="fa fa-check"></i> Java<br>
-		<i class="fa fa-check"></i> Javascript<br>
-		<i class="fa fa-check"></i> Database design with MySQL<br>
-		<i class="fa fa-check"></i> JDBC<br>
-		<i class="fa fa-check"></i> HTML/CSS<br>
 		<i class="fa fa-check"></i> C++<br>
+		<i class="fa fa-check"></i> Processing API<br>
+		<i class="fa fa-check"></i> HTML/CSS<br>
+		<i class="fa fa-check"></i> JSP<br>
+		<i class="fa fa-check"></i> Javascript/JQuery<br>
+		<i class="fa fa-check"></i> MySQL<br>
+		<i class="fa fa-check"></i> JDBC API<br>
 
 		<h4>Software</h4>
+		<i class="fa fa-check"></i> Microsoft Excel, Access<br>
 		<i class="fa fa-check"></i> Adobe Photoshop, Dreamweaver<br>
 		<i class="fa fa-check"></i> Gimp<br>
 		<i class="fa fa-check"></i> SAP<br>
 	</div>
 
 	<h3>Work Experience</h3>
-	<h4>Database designer intern</h4>
+	<h4>Intern Lead Programmer for LiquiZ</h4>
 	<p>Stevens Institute of Technology. Reflections <a href="http://sit-senexp.blogspot.com" target="_blank">here</a>
-	<h4>Course materials writer intern</h4>
+	<h4>Intern Course Materials Writer</h4>
 	<p>Ad Astra Education</p>
 
 	<h3>Completed Projects</h3>
-	<h4><a href="http://idontknowwhattodo.me:8080/WhatToDo/" target="_blank">I Don't Know What To Do</a></h4>
+	<h4>I Don't Know What To Do (Currently offline)</h4>
 	<p>The permanent cure for boredom</p>
 	<p id="note">Made at hackBCA II (2015)</p>
 
@@ -43,7 +46,11 @@
 
 	<h3>In Progress</h3>
 	
+	<h4><a href="https://github.com/yijkan/HackRU-Spring-2015/blob/master/Chess.jar" target="_blank">Chess</a><h4>
+	<p>Chess, recreated in Java with Processing API. (Intending on adding new twists such as pieces changing color or rank)</p>
+	<p id="note">Made at HackRU Spring 2015</p>
+
 	<h4><a href="TempoPerfect/TempoPerfect.html" target="_blank">Tempo Perfect</a></h4>
-	<p>Test your skills at maintaining a steady tempo!</p>
-	<p id="note">Currently not working. Made at Monthly Music Hackathon at Spotify September 2014</li>
+	<p>Test your skills at maintaining a steady tempo! (Currently not working)</p>
+	<p id="note">Made at Monthly Music Hackathon at Spotify September 2014</li>
 </div>

@@ -5,7 +5,7 @@ $(document).ready(function() {
 	});
 
 	$('#prog').mouseenter(function() {
-		updateMB("Updates: hackBCA II (2015) Project: I Don't Know What To Do");
+		updateMB("Updates: HackRU Spring 2015 Project: Chess");
 	});
 
 	$('#mus').mouseenter(function() {
