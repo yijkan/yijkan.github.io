@@ -11,7 +11,7 @@
 
 	<h3>Competitions</h3>
 	<h4>Fed Challenge</h4>
-	<i class='fa fa-check'></i> 2015 Team member<br>
+	<i class='fa fa-check'></i> 2015 Winning team member<br>
 	<i class='fa fa-check'></i> 2014 Supporting researcher for 3rd place team<br>
 
 	<h4>DECA</h4>
