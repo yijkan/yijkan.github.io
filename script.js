@@ -5,15 +5,15 @@ $(document).ready(function() {
 	});
 
 	$('#prog').mouseenter(function() {
-		updateMB("Updates: HackRU Spring 2015 Project: Chess");
+		updateMB("Updates: PennApps Fall 2015 Project: My Little Budget Book");
 	});
 
 	$('#mus').mouseenter(function() {
-		updateMB("Updates: Instruments, Ensembles, and Classes");
+		updateMB("Updates: CMU String Ensemble");
 	});
 
 	$('#econ').mouseenter(function() {
-		updateMB("Updates: Fed Challenge 2015")
+		updateMB("Updates: Bloomberg FX Essentials Certification")
 	});
 
 	$('#cv').mouseenter(function() {
