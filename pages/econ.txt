@@ -1,5 +1,7 @@
 <div class='left'>
 	<div class='side'>
+		<h3>Certifications</h3>
+		<i class="fa fa-check"></i> Bloomberg FX Essentials<br>
 		<h3>Classes I've taken</h3>
 		<i class='fa fa-check'></i> IB Economics HL<br>
 		<i class='fa fa-check'></i> Marketing<br>

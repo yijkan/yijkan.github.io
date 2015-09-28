@@ -17,7 +17,7 @@ $(document).ready(function() {
 	});
 
 	$('#cv').mouseenter(function() {
-		updateMB("Updates: PDF now available!");
+		updateMB("Coming soon!");
 	});
 
 	$('.menu_item').mouseleave(function() {
@@ -48,9 +48,9 @@ $(document).ready(function() {
 		$('#content').load('pages/econ.txt');
 	});
 
-	$('#cv').click(function() {
-		$('#content').load('pages/cv.txt');
-	});
+	// $('#cv').click(function() {
+	// 	$('#content').load('pages/cv.txt');
+	// });
 
 	$(window).scroll(function() {
 		sticky_relocate();
