@@ -13,6 +13,7 @@
 	<i class="fa fa-check"></i> CMU String Ensemble "String Theory"
 	
 	<h4>Past</h4>
+	<i class=“fa fa-check”></i> New Jersey Region I Orchestra<br>
 	<i class="fa fa-check"></i> Bergen Youth Orchestra (Assistant Concertmaster 2014-2015)<br>
 	<i class="fa fa-check"></i> BCA String Orchestra 2011-2013<br>
 	<i class="fa fa-check"></i> BCA Pit Orchestra for <i>Brigadoon</i> (2013), <i>Bat Boy</i> (2014), <i>Kiss Me Kate</i> (2015)<br>
