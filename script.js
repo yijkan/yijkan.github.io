@@ -16,7 +16,7 @@ $(document).ready(function() {
 		updateMB("Updates: Bloomberg FX Essentials Certification")
 	});
 
-	$('#cv').mouseenter(function() {
+	$('#res').mouseenter(function() {
 		updateMB("Coming soon!");
 	});
 
@@ -48,8 +48,8 @@ $(document).ready(function() {
 		$('#content').load('pages/econ.txt');
 	});
 
-	// $('#cv').click(function() {
-	// 	$('#content').load('pages/cv.txt');
+	// $('#res').click(function() {
+	// 	$('#content').load('pages/res.txt');
 	// });
 
 	$(window).scroll(function() {
