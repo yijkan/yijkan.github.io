@@ -5,7 +5,7 @@ $(document).ready(function() {
 	});
 
 	$('#prog').mouseenter(function() {
-		updateMB("Updates: PennApps Fall 2015 Project: My Little Budget Book");
+		updateMB("Updates: SteelHacks 2016 Project: Demo'd");
 	});
 
 	$('#mus').mouseenter(function() {
