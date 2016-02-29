@@ -54,7 +54,7 @@
 	<p id="note">Made at hackBCA (2014)</p>
 
 	<h3>In Progress</h3>
-	<h4><a href="" target="_blank">Demo'd</a></h4>
+	<h4><a href="http://phillysmith.com/index2.html" target="_blank">Demo'd</a></h4>
 	<p>An Android app intended for quick brainstorming of app designs. Not as functional as we'd like since we were all pretty new to Android app development, but we were proud of what we were able to accomplish.</p>
 	<p id="note">Made at SteelHacks (2016)</p>
 	
