@@ -5,7 +5,7 @@ $(document).ready(function() {
 	});
 
 	$('#prog').mouseenter(function() {
-		updateMB("Updates: SteelHacks 2016 Project: Demo'd");
+		updateMB("Updates: Summer '16 work experience");
 	});
 
 	$('#mus').mouseenter(function() {

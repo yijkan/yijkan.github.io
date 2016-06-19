@@ -6,13 +6,17 @@
 		<i class="fa fa-check"></i> Javascript/JQuery<br>
 		<i class="fa fa-check"></i> JSP<br>
 		<i class="fa fa-check"></i> MySQL<br>
+		<i class="fa fa-check"></i> SML<br>
+		<i class="fa fa-check"></i> C<br>
 		<i class="fa fa-check"></i> C++<br>
+		<i class="fa fa-check"></i> Swift<br>
 		
 		<h3>Libraries</h3>
 		<i class="fa fa-check"></i> Processing<br>	
 		<i class="fa fa-check"></i> Swing<br>
 		<i class="fa fa-check"></i> JDBC<br>
 		<i class="fa fa-check"></i> Android<br>
+		<i class="fa fa-check"></i> iOS<br>
 
 		<h3>Software</h3>
 		<i class="fa fa-check"></i> Microsoft Excel, Access<br>
@@ -22,6 +26,9 @@
 	</div>
 
 	<h3>Work Experience</h3>
+	<h4>FBU Engineering intern</h4>
+	<p>Facebook</p>
+
 	<h4>Intern Lead Programmer for LiquiZ</h4>
 	<p>Stevens Institute of Technology. Reflections <a href="http://sit-senexp.blogspot.com" target="_blank">here</a>
 
@@ -37,7 +44,7 @@
 	<p>The permanent cure for boredom</p>
 	<p id="note">Made at hackBCA II (2015)</p>
 
-	<h4><a href="http://yucode.org/app/healinghumanity" target="_blank">Healing Humanity</a></h4>
+	<h4>Healing Humanity (Currently offline)</h4>
 	<p>A body's individual parts must all be kept alive in order for the body to survive, much like the Earth itself</p>
 	<p id="note">Made at HackRU (Fall 2014)</p>
 
