@@ -7,13 +7,16 @@
 		<i class="fa fa-check"></i> Piano<br>
 		<i class="fa fa-check"></i> Viola<br>
 		<i class="fa fa-check"></i> Guitar<br>
+		<i class="fa fa-check"></i> Bagpipes<br>
 	</div>
 	
 	<h3>Ensembles</h3>
-	<i class="fa fa-check"></i> CMU String Ensemble "String Theory"
+	<i class="fa fa-check"></i> CMU All-University Orchestra
+	
 	
 	<h4>Past</h4>
-	<i class="fa fa-check"></i> Pit orchestra for CMU Scotch'n'Soda musical "Legally Blonde"
+	<i class="fa fa-check"></i> CMU String Ensemble "String Theory"<br>
+	<i class="fa fa-check"></i> Pit orchestra for CMU Scotch'n'Soda musical "Legally Blonde"<br>
 	<i class=“fa fa-check”></i> New Jersey Region I Orchestra<br>
 	<i class="fa fa-check"></i> Bergen Youth Orchestra (Assistant Concertmaster 2014-2015)<br>
 	<i class="fa fa-check"></i> BCA String Orchestra 2011-2013<br>

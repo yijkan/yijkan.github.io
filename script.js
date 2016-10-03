@@ -9,7 +9,7 @@ $(document).ready(function() {
 	});
 
 	$('#mus').mouseenter(function() {
-		updateMB("Updates: CMU String Ensemble");
+		updateMB("Updates: CMU Orchestra");
 	});
 
 	$('#econ').mouseenter(function() {
