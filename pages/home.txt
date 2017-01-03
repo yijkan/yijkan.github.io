@@ -8,5 +8,5 @@
 	</div>
 
 	<h3>About Yijin</h3>
-	<p>I am a sophomore in Carnegie Mellon University's School of Computer Science. </p>
+	<p>I am a sophomore in Carnegie Mellon University's School of Computer Science. Previously, I studied Business and Finance at Bergen County Academies.</p>
 </div>
