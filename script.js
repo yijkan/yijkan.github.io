@@ -16,9 +16,9 @@ $(document).ready(function() {
 		updateMB("Updates: Bloomberg FX Essentials Certification")
 	});
 
-	$('#res').mouseenter(function() {
-		updateMB("Coming soon!");
-	});
+	// $('#res').mouseenter(function() {
+	// 	updateMB("Coming soon!");
+	// });
 
 	$('.menu_item').mouseleave(function() {
 		$('#mess_bar').empty();
@@ -33,19 +33,35 @@ $(document).ready(function() {
 
     // content updates
 	$('#home').click(function() {
-		$('#content').load('pages/home.txt');
+		$('#content').fadeOut(100, function() {
+			$('#content').load('pages/home.txt', function(responseText, textStatus, jqXHR) {
+				$('#content').fadeIn(200);
+			});
+		});
 	});
 
 	$('#prog').click(function() {
-		$('#content').load('pages/prog.txt');
+		$('#content').fadeOut(100, function() {
+			$('#content').load('pages/prog.txt', function(responseText, textStatus, jqXHR) {
+				$('#content').fadeIn(200);
+			});
+		});
 	});
 
 	$('#mus').click(function() {
-		$('#content').load('pages/mus.txt');
+		$('#content').fadeOut(100, function() {
+			$('#content').load('pages/mus.txt', function(responseText, textStatus, jqXHR) {
+				$('#content').fadeIn(200);
+			});
+		});
 	});
 
 	$('#econ').click(function() {
-		$('#content').load('pages/econ.txt');
+		$('#content').fadeOut(100, function() {
+			$('#content').load('pages/econ.txt', function(responseText, textStatus, jqXHR) {
+				$('#content').fadeIn(200);
+			});
+		});
 	});
 
 	// $('#res').click(function() {
